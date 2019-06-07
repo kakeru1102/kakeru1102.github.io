@@ -1,0 +1,181 @@
+
+
+header{
+  background-color: #5e5e5e;
+  height:65px;
+  /* text-align: center; */
+  position: fixed;
+  top:0;
+  width: 100%;
+  opacity: 0.9;
+
+}
+.container{
+   width:90%;
+   margin:0 auto;
+
+}
+
+.h-a{
+  background-color: rgba(182, 183, 181,0);
+  font-size: 17px;
+  line-height: 53px;
+  padding:0px 20px;
+  display:inline-block;
+  color: white;
+  margin-right: 20px;
+  margin-top:6px;
+  border-radius: 6px;
+  text-decoration:none;
+  transition: background-color 0.5s;
+  cursor: pointer;
+  float: right;
+}
+.h-a:hover{
+  background-color: rgba(182, 183, 181,0.5);
+}
+.top {
+  padding:180px 0;
+  /* background-color: black; */
+  background-image: url(image/city2.jpg);
+  background-size: cover;
+
+}
+.top h1{
+  color:glay;
+  padding:10px 10px;
+  opasity;0.8
+}
+
+.middle{
+  padding:40px 0;
+  text-align: center;
+
+}
+h2{
+  padding-bottom:20px;
+  font-size:30px;
+  margin-bottom:40px;
+  border-bottom: 5px solid black;
+  text-align: center;
+}
+.tech-menu{
+margin-bottom: 40px;
+}
+.index-btn {
+  color:black;
+  background-color: rgba(182, 183, 181,0.6);
+  padding: 8px 20px;
+  margin:0 10px;
+  display:inline-block;
+  border-radius: 6px;
+  text-decoration:none;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.index-btn:hover {
+    background-color: rgba(182, 183, 181,0.9);
+}
+.tech{
+  width:30%;
+  margin:30px auto 0 auto;
+  display: none;
+}
+.tech img{
+  width:100%;
+}
+.tech p{
+  width:90%;
+  text-align: center;
+  display:inline-block;
+  font-size: 13px;
+}
+.active{
+  display:block;
+}
+
+.change-btn{
+  font-size:30px;
+  margin: auto auto;
+  cursor: pointer;
+}
+.l-cs{
+  width:90%;
+  margin:140px auto;
+  text-align: center;
+  height:200px;
+  /* line-height: 400px; */
+
+}
+.next-btn{
+  /* float:right; */
+  display: inline-block;
+}
+.prev-btn{
+
+  display: inline-block;
+}
+.l-c{
+  display: inline-block;
+  width:80%;
+  text-align: center;
+}
+
+.content{
+  /* background-color:green; */
+  /* padding:px; */
+  display: inline-block;
+  width:30%;
+  /* line-height: 200px; */
+
+}
+.content img{
+  width:80%;
+  height:auto;
+  margin: 0 auto;
+
+}
+.contact {
+  width:40%;
+  margin:70px auto;
+  /* padding-bottom: 30px; */
+}
+.meal{
+  width:100%;
+  padding:10px 10px;
+}
+.contact textarea{
+  width:100%;
+  padding:20px 10px;
+}
+.send{
+  display: block;
+  width:30%;
+  margin:20px auto;
+  padding:10px 24px;
+  background-color:#dee7ec;
+  border-radius: 5px;
+  opacity:0.7;
+  font-size: 20px;
+  cursor: pointer;
+}
+.send:hover{
+  opacity:1;
+}
+.f-cs{
+  border-top:2px solid #eee;
+
+}
+.f-c{
+  float:left;
+}
+.f-c img{
+  padding:20px;
+
+}
+body{
+  margin:0;
+}
+.lineup{
+  padding:40px 0;
+}
