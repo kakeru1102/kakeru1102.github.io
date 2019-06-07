@@ -1,6 +1,25 @@
-@media(max-width:670px) {
+@media(max-width:670px){
   .tech{
     width:70%;
+  }
+  .index-btn{
+    font-size:10px;
+  }
+  .menu{
+    display: none;
+
 
   }
+header{
+  height:240px;
+}
+  .h-a{
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+
+  }
+  .menu-icon{
+    display: inline-block;
+  }
+
 }
