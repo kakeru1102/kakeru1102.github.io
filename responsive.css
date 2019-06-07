@@ -1,3 +1,4 @@
+
 @media(max-width:670px){
   .tech{
     width:70%;
@@ -5,17 +6,23 @@
   .index-btn{
     font-size:10px;
   }
-  .menu{
-    display: none;
 
+  header{
 
   }
-header{
-  height:240px;
-}
-  .h-a{
+  li{
+    width:100%;
     border-bottom: 1px solid #ccc;
+    background-color: #5e5e5e;
+  }
+  .menu{
+    display: none;
+  }
+  .h-a{
+    width:100%;
+
     border-right: none;
+
 
   }
   .menu-icon{
