@@ -1,6 +1,8 @@
 @media(max-width:670px) {
   .tech{
     width:70%;
-
+  }
+  .index-btn{
+    font-size:10px;
   }
 }
