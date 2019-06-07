@@ -12,4 +12,14 @@ $(".h-a").click(function(){
     'scrollTop':position
   },500);
 });
+$('.menu-icon').click(function() {
+  if($(".menu").hasClass('open')){
+    $('.menu').removeClass('open');
+    $('.menu').slideUp();
+  }else{
+    $('.menu').addClass('open');
+    $('.menu').slideDown();
+  }
+});
+
 });
