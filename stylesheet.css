@@ -21,13 +21,14 @@ header{
   color: white;
   float: right;
   font-size: 25px;
-  padding: 21px 0;
+  line-height: 65px;
   display: none;
   margin-right: 20px
 
 }
 ul{
   margin: 0;
+  padding:0;
 }
 .menu li{
   font-size: 17px;
