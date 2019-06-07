@@ -16,20 +16,38 @@ header{
 
 }
 
-.h-a{
-  background-color: rgba(182, 183, 181,0);
-  font-size: 17px;
-  line-height: 53px;
-  padding:0px 20px;
-  display:inline-block;
+
+.menu-icon{
   color: white;
-  margin-right: 20px;
-  margin-top:6px;
-  border-radius: 6px;
-  text-decoration:none;
-  transition: background-color 0.5s;
-  cursor: pointer;
   float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  margin-right: 20px
+
+}
+ul{
+  margin: 0;
+}
+.menu li{
+  font-size: 17px;
+  line-height: 65px;
+  display:inline-block;
+
+  float: right;
+  list-style: none;
+  /* width:100% */
+}
+.h-a{
+  color: white;
+  background-color: rgba(182, 183, 181,0);
+  border-radius: 6px;
+  padding: 20px;
+  transition: background-color 0.5s;
+  margin-right: 20px;
+  text-decoration:none;
+  border-radius: 6px;
+  cursor: pointer;
 }
 .h-a:hover{
   background-color: rgba(182, 183, 181,0.5);
@@ -80,8 +98,9 @@ margin-bottom: 40px;
   width:30%;
   margin:30px auto 0 auto;
   display: none;
+
 }
-.tech img{
+.img4{
   width:100%;
 }
 .tech p{
@@ -129,7 +148,7 @@ margin-bottom: 40px;
   /* line-height: 200px; */
 
 }
-.content img{
+.img3{
   width:80%;
   height:auto;
   margin: 0 auto;
@@ -169,7 +188,7 @@ margin-bottom: 40px;
 .f-c{
   float:left;
 }
-.f-c img{
+.img2{
   padding:20px;
 
 }
